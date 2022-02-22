@@ -1,11 +1,11 @@
-<!DOCTYPE php>
-<php lang="es" dir="ltr">
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible">
-  <!-- Aquí estoy importando en el php la fuente principal de la página web -->
+  <!-- Aquí estoy importando en el html la fuente principal de la página web -->
 
   <title>Garden in House</title>
   <!-- Acá se importa las fuentes -->
@@ -21,7 +21,29 @@
 
   
 
-  <?php include('/assets/header2.php'); ?>
+  <!-- <header class="site-header nosotros">
+
+    <div class="container-header contenido-header">
+
+      <div class="container nosotros">
+        <a href="/">
+          <img src="img/logo.svg" alt="Logotipo de Bienes Raíces">
+        </a>
+        <nav class="navigation-default nosotros">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="anuncios.html">Anuncios</a>
+          <a href="blog.html">Blog</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="https://www.google.com.ec" target="_blank">Ir a Google</a>
+        </nav>
+      </div>
+      
+    </div>
+    
+
+  </header> -->
+
+  <?php include('./assets/header2.php'); ?>
 
   <main class="container-header">
     <h2>Casas y Departamentos en Venta</h2>
@@ -88,7 +110,7 @@
       </div>
 
       <div class="anuncio">
-        <a title="Casa Anuncio con Alberca" href="https://www.google.com.ec" target="_blank">
+        <a title "Casa Anuncio con Alberca" href="https://www.google.com.ec" target="_blank">
           <img src="img/anuncio3.jpg" alt="Casa Anuncio con Alberca"></a>
 
         <div class="contenido-anuncio">
@@ -179,7 +201,7 @@
       </div>
 
       <div class="anuncio">
-        <a title="Casa fuera de la ciudad" href="https://www.google.com.ec" target="_blank">
+        <a title "Casa fuera de la ciudad" href="https://www.google.com.ec" target="_blank">
           <img src="img/anuncio6.jpg" alt="Casa fuera de la ciudad"></a>
 
         <div class="contenido-anuncio">
@@ -220,11 +242,26 @@
 
 
  
-  <?php include('./assets/footer.php'); ?>
+    <footer class="seccion-footer">
+      <div class="container-header container-footer">
+
+        <nav class="navigation-default navigation-footer">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="anuncios.html">Anuncios</a>
+          <a href="blog.html">Blog</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="https://www.netflix.com/ec/" target="_blank">Ir a Netflix</a>
+        </nav>
+
+        
+          <p class="copyright-footer">Todos los Derechos Reservados - 2020 &copy; </p>
+        
+      </div>
+    </footer>
   
 
 
 
 </body>
 
-</php>
+</html>

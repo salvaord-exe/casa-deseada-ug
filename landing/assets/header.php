@@ -3,14 +3,13 @@
         <div class="container-header contenido-header">
 
             <div class="container">
-                <a href="/bienes-raices/landing">
-                    <img src="img/logo.svg" alt="Logotipo de Bienes Raíces">
+                <a href="#">
+                    <h1>CASA SOÑADA</h1>
                 </a>
                 <nav class="navigation-default">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">Anuncios</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contacto.html">Contacto</a>
+                    <a href="nosotros.php">Nosotros</a>
+                    <a href="anuncios.php">Anuncios</a>
+                    <a href="contacto.php">Contacto</a>
                 </nav>
             </div>
             <!--container-nav-->
